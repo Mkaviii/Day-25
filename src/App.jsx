@@ -1,24 +1,27 @@
 
-import React from 'react'
-import Greeting from './Greeting';
+ import React from 'react'
+ //import Greeting from './Greeting';
 
-// /*
-// <></>  -> fragment tag.
-// */
+// // /*
+// // <></>  -> fragment tag.
+// // */
 
 
-//parent components
+// //parent components
 
-function App() {
-  const loggedInuser = "kavitha";
-  return (
-   <>
-    <Greeting loggedInuser={loggedInuser}/>
-    <Greeting/>
+// function App() {
+//   const loggedInuser = "kavitha";
+//   return (
+//    <>
+//     <Greeting loggedInuser={loggedInuser}/>
+//     <Greeting/>
     
-   </>
-  )
-}
+//    </>
+//   )
+// }
 
-export default App;
+// export default App;
+
+
+
 
